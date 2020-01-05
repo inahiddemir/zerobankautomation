@@ -1,0 +1,63 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-12-29T03:09:36.978Z",
+        "line": 2,
+        "name": "Savings account redirect",
+        "description": "",
+        "id": "navigating-to-specific-accounts-in-accounts-activity;savings-account-redirect",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8190091900,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "the user is logged in",
+            "match": {
+              "location": "AccountActivityNavigation.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "the user clicks on \"Savings\" link on the \"Account Summary\" page",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "the \"Account Activity\" page should be displayed",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Account dropdown should have \"Savings\" selected",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Navigating to specific accounts in Accounts Activity",
+    "description": "",
+    "id": "navigating-to-specific-accounts-in-accounts-activity",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AccountActivityNavigation.feature",
+    "tags": []
+  }
+]
